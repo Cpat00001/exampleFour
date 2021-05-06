@@ -5,5 +5,95 @@ Author: Pat
 
 */
 body {
-  background-color: rgb(125, 117, 168);
+  background-color: rgb(214, 213, 219);
 }
+/* main strucutre CSS Grid */
+.main_wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(13, 100px);
+  max-width: 1200px;
+  margin: auto;
+}
+.header {
+  background-color: rgb(143, 105, 179);
+  grid-column-start: 1;
+  grid-column-end:13;
+  /* grid-template-rows: repeat(12, 100px); */
+  grid-row-start: 1;
+  grid-row-end: 1; 
+}
+/* navbar_menu in header */
+.navbar_menu {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  background-color: cornflowerblue;
+  grid-row-start: 1;
+  grid-row-end:3;
+  text-align: center;
+  font-family: 'Gill Sans', sans-serif;
+  font-size: medium;
+  font-weight: 700;
+  color: rgb(218, 214, 214);
+}
+.m_one {
+  grid-column: 3 / 5;
+  /* grid-row-start: 1;
+  grid-row-end: 3; */
+  background-color: darkgreen;
+}
+.m_two {
+  grid-column: 5 / 7;
+  background-color: brown;
+}
+.m_three {
+  grid-column: 7 / 9;
+  background-color: rgb(114, 90, 82);
+}
+.m_four {
+  grid-column: 9/11;
+  background-color: crimson;
+}
+.m_four_inner {
+  border: 1px solid black;
+  background: linear-gradient(147deg, pink, red, pink);
+}
+.main_body {
+  background-color: coral;
+  grid-template-columns: repeat(12, 1fr);
+  /* grid-template-rows: repeat(12, 100px); */
+  grid-column: 2/12;
+  grid-row-start: 3;
+  grid-row-end: 11;
+} 
+/* .body_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+}
+.b_one {
+  grid-column: 1 / 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.b_two {
+  grid-column: 1 / 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.skewed_one {
+  width: 100%;
+  height: 400px;
+  background-color: cornflowerblue;
+  transform: skew(10deg, 10deg);
+}
+
+/* footer section */
+.footer {
+  background-color: darkcyan;
+  grid-column: 1/13;
+  grid-row-start: 12;
+  grid-row-end: 14;
+} */
+
+/* sub grids CSS */
