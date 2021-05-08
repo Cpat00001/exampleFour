@@ -13,18 +13,21 @@
 
 <h3>This is a header</h3>
 <div class="navbar_menu">
-    <div class="m_one">
+<div class="m_logo">
+        <h5>LOGO</h5>
+    </div>
+    <div class="menu m_one">
         <h5>Home</h5>
     </div>
-    <div class="m_two">
-        <h5>Stories</h5>
+    <div class="menu m_two">
+        <h5>Contact Us</h5>
     </div>
-    <div class="m_three">
-        <h5>Contact us</h5>
+    <div class="menu m_three">
+        <h5>About Us</h5>
     </div>
-    <div class="m_four">
-        <div class="m_four_inner">
-            <h5>Talk about</h5>
+    <div class="menu m_four">
+        <div class=" menu m_four_inner">
+            <h5>Sectors</h5>
         </div>
     </div>
 </div>
