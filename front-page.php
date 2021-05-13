@@ -5,6 +5,8 @@
     </div>
     <div class="main_body">
         <?php get_template_part('partials/body','page'); ?>
+        <!-- add second stripe with divs -->
+        <?php get_template_part('partials/body','page-two'); ?>
     </div>
     <div class="footer">
         <?php get_footer(); ?>
