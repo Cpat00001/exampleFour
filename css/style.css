@@ -158,7 +158,11 @@ body {
   transform: skewY(10deg);
   z-index: 1;
   border: 2px solid red;
-  /* background-color: black; */
+  /* background-image: linear-gradient(
+    140deg,
+    #e7385d 0%,
+    #ef743e 100%
+  ) !important; */
 }
 .sr_one_inner {
   /* background-color: black; */
@@ -191,23 +195,23 @@ body {
   border-radius: 50%;
 }
 .m_1 {
-  background-color: crimson;
+  background-color: rgb(228, 196, 204);
   top: 40%;
   grid-column: 1 / 2;
   /* grid-row: 2/3; */
 }
 .m_2 {
-  background-color: rgb(30, 180, 68);
+  background-color: rgb(228, 196, 204);
   top: 60%;
   grid-column: 2 / 3;
 }
 .m_3 {
-  background-color: rgb(30, 180, 68);
+  background-color: rgb(228, 196, 204);
   top: 60%;
   grid-column: 3 / 4;
 }
 .m_4 {
-  background-color: crimson;
+  background-color: rgb(228, 196, 204);
   top: 40%;
   grid-column: 4 / 5;
 }
@@ -279,10 +283,18 @@ body {
     font-size: 50px;
     background-color: rgb(221, 171, 201);
   }
+  .sr_one {
+    grid-column: 1;
+    min-height: 800px;
+    height: auto;
+    /* background-color: rgb(31, 30, 30); */
+    border: 2px solid black;
+    position: relative;
+  }
   .sr_one_inner {
     /* background-color: black; */
     position: absolute;
-    height: 70%;
+    height: 110%;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
@@ -293,7 +305,7 @@ body {
     z-index: 10;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
     gap: 5%;
   }
   .team_txt {
@@ -311,26 +323,26 @@ body {
   }
   .m_1 {
     background-color: crimson;
-    top: 40%;
     grid-column: 1;
-    /* grid-row: 1; */
+    grid-row-start: 1;
+    grid-row-end: 4;
   }
   .m_2 {
     background-color: rgb(30, 180, 68);
-    top: 60%;
     grid-column: 1;
-    /* grid-row: 3; */
+    grid-row-start: 2;
+    grid-row-end: 5;
   }
   .m_3 {
     background-color: rgb(30, 180, 68);
-    top: 60%;
-    /* grid-column: 6/8; */
+    grid-row-start: 4;
+    grid-row-end: 7;
   }
   .m_4 {
     background-color: crimson;
-    top: 40%;
     grid-column: 1;
-    /* grid-column: 8/10; */
+    grid-row-start: 6;
+    grid-row-end: 8;
   }
 }
 /* screens wider than 1200px */
