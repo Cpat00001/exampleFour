@@ -7,8 +7,12 @@
         <?php get_template_part('partials/body','page'); ?>
         <!-- add second stripe with divs -->
         <?php get_template_part('partials/body','page-two'); ?>
+        <!-- add third stripe of body section with Range of Services -->
+        <?php get_template_part('partials/services','page'); ?>
     </div>
+    
     <div class="footer">
         <?php get_footer(); ?>
     </div>
+    
 </div>
