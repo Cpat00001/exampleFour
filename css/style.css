@@ -18,6 +18,10 @@ body {
 }
 .header {
   background-color: rgb(143, 105, 179);
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
   grid-column-start: 1;
   grid-column-end: 13;
   /* grid-template-rows: repeat(12, 100px); */
@@ -219,19 +223,63 @@ body {
   grid-column: 4 / 5;
 }
 /*  services container and divs*/
+.services {
+  width: 100%;
+  min-height: 400px;
+  height: auto;
+  background-color: rgb(143, 105, 179);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.services > h1 {
+  font-size: 3em;
+}
+.service-card {
+  background-color: cyan;
+}
+.card-header {
+  min-height: 30%;
+  height: auto;
+  background-color: rgb(88, 103, 163);
+  font-size: 35px;
+}
+.card-body {
+  background-color: rgb(103, 115, 165);
+  text-align: left;
+  padding: 2%;
+}
+.card-body:hover {
+  /* background-color: rgb(25, 52, 161); */
+  background: linear-gradient(
+    135deg,
+    rgb(25, 52, 161) 10%,
+    30%,
+    rgb(103, 115, 165) 90%
+  );
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 5px 5px 8px 5px rgba(61, 60, 60, 0.5);
+}
+.card-body > p {
+  font-size: 18px;
+}
 .services-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 1%;
-  grid-template-rows: repeat(8, 100px);
   row-gap: 1%;
   padding: 10px;
-  background-color: rgb(247, 188, 149);
+  background-color: rgb(231, 224, 224);
+  /* border: 1px solid grey; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .services-container > div {
   background-color: rgb(221, 103, 24);
   text-align: center;
   height: auto;
+  display: grid;
+  grid-template-rows: minmax(100px, max-content);
 }
 .s-con-1 {
   grid-column: 1;
@@ -371,7 +419,7 @@ body {
     z-index: 10;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
     gap: 5%;
   }
   .team_txt {
@@ -379,8 +427,8 @@ body {
     grid-column: 1;
     /* grid-row: 1/2; */
     color: white;
-    margin-top: 5%;
-    width: 80%;
+    margin-top: 1%;
+    width: 90%;
     margin-left: -10%;
   }
   .circle {
@@ -394,29 +442,43 @@ body {
   .m_1 {
     background-color: rgb(228, 196, 204);
     grid-column: 1;
-    grid-row-start: 2;
-    grid-row-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
     top: 40%;
   }
   .m_2 {
     background-color: rgb(228, 196, 204);
     grid-column: 1;
-    grid-row-start: 4;
-    grid-row-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 7;
     top: 0%;
   }
   .m_3 {
     background-color: rgb(228, 196, 204);
-    grid-row-start: 5;
-    grid-row-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 8;
     top: 10%;
   }
   .m_4 {
     background-color: rgb(228, 196, 204);
     grid-column: 1;
-    grid-row-start: 6;
-    grid-row-end: 8;
+    grid-row-start: 7;
+    grid-row-end: 9;
     top: 20%;
+  }
+  /* services container */
+  .services-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* column-gap: 1%; */
+    row-gap: 1%;
+    padding: 10px;
+    background-color: rgb(231, 224, 224);
+  }
+  [class*='s-con'] {
+    grid-column: 1;
+    grid-row-start: unset;
+    grid-row-end: unset;
   }
   /* footer on small divs */
   .footer {

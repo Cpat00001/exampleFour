@@ -9,9 +9,7 @@
 </head>
 <body <?php body_class('dowolnaNazwa') ?>>
     
-
-
-<h3>This is a header</h3>
+<h3>Your local Garage!</h3>
 <div class="navbar_menu">
 <div class="m_logo">
         <h5>LOGO</h5>
