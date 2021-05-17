@@ -9,6 +9,8 @@
         <?php get_template_part('partials/body','page-two'); ?>
         <!-- add third stripe of body section with Range of Services -->
         <?php get_template_part('partials/services','page'); ?>
+        <!-- letters container -->
+        <?php get_template_part('partials/letters','page'); ?>
     </div>
     
     <div class="footer">
