@@ -313,33 +313,52 @@ body {
 }
 /* letters container */
 .letters-container {
-  background-color: cornflowerblue;
   min-height: 500px;
   margin-top: 200px;
   width: 100%;
+  background-attachment: fixed;
+  background-image: url('../media/mechanics1.jpg');
+  /* background-color: cornflowerblue; */
 }
 .letters-show {
   /* background-image: url('../media/mechanics1.jpg'); */
+  /* background-attachment: fixed; */
   margin: auto;
   width: 70%;
   border: 1px solid blue;
   text-align: center;
   padding: 70px 0;
-}
-.letters-show > img {
-  object-fit: cover;
-  width: 100%;
-  height: 500px;
   position: relative;
+  min-height: 300px;
+  /* fro css-tricks */
+  -webkit-text-fill-color: transparent;
+  /* -webkit-background-clip: text; */
 }
 #letters-txt {
+  /* background-color: rgb(243, 14, 167); */
+  /* overflow: hidden; */
+  /* display: inline-block; */
+  padding: 10px;
   font-weight: bold;
   font-family: arial;
-  font-size: 10em;
+  color: transparent;
+  font-size: 10vw;
   position: absolute;
-  z-index: 1;
-  background-color: #fff;
-  overflow: hidden;
+  color: transparent;
+}
+#letters-txt > span {
+  /* background: url(https://images.pexels.com/photos/4116231/pexels-photo-4116231.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) -20px -20px repeat; */
+  /* display: block; */
+  /* color: white; */
+  -webkit-text-stroke: 2px white;
+  /* background-attachment: fixed; */
+  /* background: linear-gradient(to bottom, #eee, rgba(222, 112, 6, 0.2), #de7006); */
+  /* background: url(https://images.pexels.com/photos/4116231/pexels-photo-4116231.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) -20px -20px repeat; */
+  /* -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; */
+  font-size: 15vw;
+  font-weight: bold;
+  text-align: center;
 }
 
 /* footer section */
