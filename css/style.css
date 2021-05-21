@@ -28,6 +28,11 @@ body {
   grid-row-start: 1;
   grid-row-end: 1;
 }
+.title {
+  text-align: left;
+  font-size: 1.5rem;
+  color: white;
+}
 /* navbar_menu in header */
 .navbar_menu {
   display: grid;
@@ -101,14 +106,61 @@ body {
   grid-column: 1 / 2;
   /* grid-row-start: 2;
   grid-row-end: 3; */
-  background-color: deepskyblue;
+  /* background-color: deepskyblue; */
   min-height: 400px;
   height: auto;
   position: relative;
+  display: grid;
   /* change layout for background color */
   /* display: grid;
   grid-template-columns: 1fr; */
+  grid-template-columns: 1fr 2fr 1fr;
+  padding: 1%;
+  gap: 1%;
+  text-align: center;
 }
+.b_two_left {
+  background-color: #e7385d;
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+}
+.b_two_left_head {
+  background-color: crimson;
+  grid-row: 1;
+}
+.b_two_left_body {
+  background-color: rgb(138, 113, 118);
+  opacity: 50%;
+  grid-row: 2/3;
+}
+.b_two_middle {
+  background-color: #ef743e;
+  display: grid;
+}
+.b_two_middle_head {
+  grid-row: 1;
+  border-bottom: 5px solid red;
+}
+.b_two_middle_body {
+  padding: 10px;
+  grid-row: 2/5;
+  background-color: grey;
+}
+.b_two_right {
+  background-color: blueviolet;
+  display: grid;
+}
+.b_two_right_head {
+  background-color: rgb(196, 74, 155);
+  grid-row: 1/3;
+}
+.b_two_right_body {
+  grid-row: 3;
+  background-color: rgb(240, 97, 97);
+}
+/* .header {
+  text-align: left;
+} */
 .b_two:after {
   position: absolute;
   content: '';
@@ -150,8 +202,8 @@ body {
 .sr_one:after {
   position: absolute;
   content: '';
-  width: 150%;
-  margin-left: -20%;
+  /* width: 150%;
+  margin-left: -20%; */
   min-height: 130%;
   height: auto;
   margin-bottom: 10%;
@@ -321,53 +373,39 @@ body {
   /* background-color: cornflowerblue; */
 }
 .letters-show {
-  /* background-image: url('../media/mechanics1.jpg'); */
-  /* background-attachment: fixed; */
   margin: auto;
   width: 70%;
-  border: 1px solid blue;
+  border: 10px solid cornflowerblue;
   text-align: center;
   padding: 70px 0;
   position: relative;
-  min-height: 300px;
-  /* fro css-tricks */
-  -webkit-text-fill-color: transparent;
-  /* -webkit-background-clip: text; */
+  min-height: 340px;
 }
 #letters-txt {
-  /* background-color: rgb(243, 14, 167); */
-  /* overflow: hidden; */
-  /* display: inline-block; */
   padding: 10px;
   font-weight: bold;
   font-family: arial;
-  color: transparent;
+  /* color: transparent; */
   font-size: 10vw;
   position: absolute;
-  color: transparent;
+  background-color: #e7385d;
+  opacity: 30%;
 }
 #letters-txt > span {
-  /* background: url(https://images.pexels.com/photos/4116231/pexels-photo-4116231.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) -20px -20px repeat; */
-  /* display: block; */
-  /* color: white; */
-  -webkit-text-stroke: 2px white;
-  /* background-attachment: fixed; */
-  /* background: linear-gradient(to bottom, #eee, rgba(222, 112, 6, 0.2), #de7006); */
-  /* background: url(https://images.pexels.com/photos/4116231/pexels-photo-4116231.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) -20px -20px repeat; */
-  /* -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text; */
-  font-size: 15vw;
+  -webkit-text-stroke: 10px cornflowerblue;
+  font-size: 14vw;
   font-weight: bold;
   text-align: center;
 }
 
 /* footer section */
 .footer {
-  background-color: darkcyan;
+  background: linear-gradient(45deg, rgb(231, 224, 224), cornflowerblue);
   grid-column: 1/13;
-  grid-row-start: 12;
-  grid-row-end: 14;
-  margin-top: 20%;
+  grid-row-start: 10;
+  grid-row-end: 15;
+  margin-top: 5%;
+  border-top: 2px solid grey;
 }
 
 /* responsive */
@@ -402,6 +440,24 @@ body {
   .m_four {
     grid-column: 1 / 2;
     background-color: rgb(25, 52, 161);
+  }
+  /* news box */
+  .b_two {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .b_two_right {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 1fr;
+  }
+  .b_two_right_head title {
+    grid-row: 1/4;
+    grid-column: 1;
+  }
+  .b_two_right_body {
+    grid-row: 1/4;
+    grid-column: 2;
   }
   /* elements in skew div */
   .skewed_one {
@@ -438,8 +494,8 @@ body {
   .sr_one:after {
     position: absolute;
     content: '';
-    width: 150%;
-    margin-left: -20%;
+    /* width: 150%;
+    margin-left: -20%; */
     min-height: 130%;
     height: auto;
     margin-bottom: 10%;
