@@ -20,7 +20,7 @@
             <div class="b_two_right_body">Right Body Title</div>
         </div>
     </div>
-    <div class="b_three">
-        <h5>B_Three</h5>
+    <div class="b_three title">
+        <h5>Call to action DIV</h5>
     </div>
 </div>

@@ -11,6 +11,8 @@
         <?php get_template_part('partials/services','page'); ?>
         <!-- letters container -->
         <?php get_template_part('partials/letters','page'); ?>
+        <!-- new line with products - cars -->
+        <?php get_template_part('partials/body-page-three','page'); ?>
     </div>
     
     <div class="footer">
