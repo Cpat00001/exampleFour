@@ -4,7 +4,7 @@
         <div class="s-con-1">
             <!-- <div class="service-card"> -->
                 <div class="card-header">
-                    <h5>Container S1</h5>
+                    <h5>Service S1</h5>
                 </div>
                 <div class="card-body">
                     <h3>Service Header</h3>
@@ -20,7 +20,7 @@
         </div>
         <div class="s-con-2">
         <div class="card-header">
-                    <h5>Container S2</h5>
+                    <h5>Service S2</h5>
                 </div>
                 <div class="card-body">
                 <h3>Service Header</h3>
@@ -35,7 +35,7 @@
         </div>
         <div class="s-con-3">
         <div class="card-header">
-                    <h5>Container S3</h5>
+                    <h5>Service S3</h5>
                 </div>
                 <div class="card-body">
                 <h3>Service Header</h3>
@@ -50,7 +50,7 @@
         </div>
         <div class="s-con-4">
         <div class="card-header">
-                    <h5>Container S4</h5>
+                    <h5>Service S4</h5>
                 </div>
                 <div class="card-body">
                 <h3>Service Header</h3>
@@ -65,7 +65,7 @@
         </div>
         <div class="s-con-5">
         <div class="card-header">
-                    <h5>Container S5</h5>
+                    <h5>Service S5</h5>
                 </div>
                 <div class="card-body">
                 <h3>Service Header</h3>
@@ -80,7 +80,7 @@
         </div>
         <div class="s-con-6">
         <div class="card-header">
-                    <h5>Container S6</h5>
+                    <h5>Service S6</h5>
                 </div>
                 <div class="card-body">
                 <h3>Service Header</h3>

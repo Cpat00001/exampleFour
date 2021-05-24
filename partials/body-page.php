@@ -16,7 +16,10 @@
             <div class="b_two_middle_body">Some text here</div>
         </div>
         <div class="b_two_right">
-            <div class="b_two_right_head title">Right Header Photo</div>
+            <div class="b_two_right_head title">
+            Right Header Photo
+            <img src="https://images.unsplash.com/photo-1498887960847-2a5e46312788?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="responsive">
+            </div>
             <div class="b_two_right_body">Right Body Title</div>
         </div>
     </div>
