@@ -15,7 +15,7 @@
         <?php get_template_part('partials/body','page-three'); ?>
     </div>
     
-    <div class="footer">
+    <div class="footer" id="contact_us">
         <?php get_footer(); ?>
     </div>
     

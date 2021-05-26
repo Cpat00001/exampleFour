@@ -1,4 +1,4 @@
-<div class="bp3">
+<div class="bp3" id="cars_for_sale">
     <div class="cars-title">
         <h1 class="title">Used Cars for sales from Our Garage.</h1>
     </div>
@@ -7,8 +7,8 @@
             <h1>Product Title</h1>
         </div>
         <div class="car-img">
-            <img
-            src="https://www.wrc.com/images/newsarchive/images/original/928bd16367_FordFiestaR5-Launch-2019_006_896x504_505d8_f_1400x788.jpg">
+        <img
+            src="https://static-eu.cargurus.com/images/forsale/2021/05/12/08/53/2018_kia_soul-pic-2084752386113710083-1024x768.jpeg">
         </div>
         <div class="car-price title">
             <h5>Price: $20.000</h5>
@@ -44,7 +44,7 @@
         </div>
         <div class="car-img">
             <img
-            src="https://m.atcdn.co.uk/a/media/w375/4465fec2673348b0b14e0ddd49e53dad.jpg">
+            src="https://static-eu.cargurus.com/images/forsale/2021/05/04/22/07/2020_ford_kuga-pic-7219729575545072983-1024x768.jpeg">
         </div>
         <div class="car-price title">
             <h5>Price: $20.000</h5>
