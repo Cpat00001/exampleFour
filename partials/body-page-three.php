@@ -5,6 +5,7 @@
     <div class="cars">
         <div class="car-title">
             <h1>Product Title</h1>
+            <div id="discount">Discount: 20%</div>
         </div>
         <div class="car-img">
         <img
@@ -41,6 +42,7 @@
     <div class="cars">
         <div class="car-title">
             <h1>Product Title</h1>
+            <div id="discount">Discount: 20%</div>
         </div>
         <div class="car-img">
             <img

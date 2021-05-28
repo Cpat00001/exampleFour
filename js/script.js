@@ -5,5 +5,23 @@ a.addEventListener('click', show_test);
 function show_test(){
     document.getElementById('show_txt').innerHTML = "Local Garage Page";
     }
+// scroll up button
+//Get the button:
+mybutton = document.getElementById("scrollBtn");
 
-// alert('JS works');
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    scrollbtn.style.display = "block";
+  } else {
+    scrollbtn.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
