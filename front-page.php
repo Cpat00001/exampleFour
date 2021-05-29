@@ -1,9 +1,13 @@
 <!-- main page structure -->
-<div class="main_wrapper">
+<div id="main_wrapper">
     <div class="header">
         <?php get_header();?>
     </div>
     <div class="main_body">
+        <div class="popup">
+            <p>Before you go,check our discounts</p>
+        </div>
+        
         <?php get_template_part('partials/body','page'); ?>
         <!-- add second stripe with divs -->
         <?php get_template_part('partials/body','page-two'); ?>

@@ -16,7 +16,7 @@ a {
   color: white;
 }
 /* main strucutre CSS Grid */
-.main_wrapper {
+#main_wrapper {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto max-content auto;
@@ -102,7 +102,15 @@ a {
   grid-template-rows: minmax(200px, 1fr);
   /* border: 2px solid red; */
 }
-
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 200px;
+  background-color: orangered;
+  border: 2px solid black;
+}
 .b_one {
   grid-column: 1 / 2;
   /* grid-row-start: 1;
@@ -878,7 +886,7 @@ img {
   body {
     background-color: rgb(231, 224, 224);
   }
-  .main_wrapper {
+  #main_wrapper {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto max-content auto;
