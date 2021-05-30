@@ -1,8 +1,8 @@
 
 <div class="body_wrapper">
     <div class="b_one">
-        <button id="btn_1">Click to test</button>
-        <p id="show_txt"></p>
+        <!-- <button id="btn_1">Click to test</button>
+        <p id="show_txt"></p> -->
     </div>
     <div class="b_two" id="home">
         <div class="b_two_left">
